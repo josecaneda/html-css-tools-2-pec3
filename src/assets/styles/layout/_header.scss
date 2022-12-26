@@ -1,0 +1,11 @@
+.l-header {
+    height: $header-height;
+    margin: 0;
+}
+
+@media screen and (max-width: $small-screen-size) {
+    .l-header {
+        height: $header-height-small-screen-size;
+    }
+      
+}

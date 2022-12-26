@@ -1,0 +1,11 @@
+.l-footer {
+    background-color: black;
+    height: $footer-height;
+}
+
+@media screen and (max-width: $small-screen-size) {
+    .l-footer {
+        height: $footer-height-small-screen-size;
+    }
+      
+}

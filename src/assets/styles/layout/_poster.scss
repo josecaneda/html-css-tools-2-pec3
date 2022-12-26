@@ -1,0 +1,9 @@
+.l-poster {
+ margin-top: -$header-height;
+}
+
+@media screen and (max-width: $small-screen-size) {
+    .l-poster {
+        margin-top: -$header-height-small-screen-size;
+    }
+}
