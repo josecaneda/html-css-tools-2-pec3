@@ -1,27 +1,4 @@
-.header {
-    @extend %header;
-  
 
-    a:hover {
-        color: #f3f4b4;
-    }
-
-    @media screen and (max-width: $small-screen-size) {
-        
-        flex-direction: column;
-        align-items: center;
-    
-        .nav {
-            ul {
-                li {
-                    display: block;
-                    text-align: center;
-                }
-        
-            }
-        }      
-    }
-}
 
 
 
