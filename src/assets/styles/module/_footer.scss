@@ -1,4 +1,4 @@
-.footer, %header {
+.footer {
     .social-network-links:hover {
         img:hover {
             opacity: 0.7;
@@ -6,5 +6,10 @@
     }
 }
 
+@layer components {
+    .footer-menu-item {
+        @apply inline mx-3 hover:text-gray-400 md:block md:text-center;
+    }
+}
 
 

@@ -1,4 +1,8 @@
-
+@layer components {
+    .header-content {
+      @apply flex flex-row justify-between items-baseline md:flex-col md:items-center;
+    }
+  }
 
 
 
