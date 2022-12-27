@@ -6,9 +6,6 @@
 
 import Countdown  from 'ds-countdown';
 
-
-
-
 /**
  * Write any other JavaScript below
  */
@@ -18,8 +15,7 @@ import Countdown  from 'ds-countdown';
 window.onload = function() {
     const nextConcertDate = '2023-01-08 19:00:00',;
     const nextConcertSite = ''
-    const concertCountdown = document.getElementById('concert-countdown');
-    
+    const concertCountdown = document.getElementById('concert-countdown'); 
 
     new Countdown({
         id: 'concert-countdown',
@@ -37,9 +33,6 @@ window.onload = function() {
 
       }, 1000);
 
-     
-
-   
 }
  
 
