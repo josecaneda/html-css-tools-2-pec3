@@ -1,35 +1,16 @@
 .history-text {
-
-    margin: 1rem auto;
-
-    p {
-        line-height: 1.7rem;
-    }
-
     img {
         width: 100%;
         box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 15%);
     }
-    p, h3 {
-        margin: 2rem auto;
-    }
-
 }
 
 .like-newspaper {
-    display: flex;
-    flex-direction: row;
-    
 
-    h3 {
-        margin-right: 2rem;
-    }
 }
 
 @media screen and (max-width: $small-screen-size) {
-        
     .like-newspaper {
         flex-direction: column;
     }
-
 }

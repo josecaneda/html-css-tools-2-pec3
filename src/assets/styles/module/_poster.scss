@@ -1,6 +1,5 @@
 
 .poster, %poster {
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../images/concert.webp');
@@ -8,66 +7,25 @@
     background-position: 0% 80%;
 
     .box-padding {
-        height: $header-height + 3rem;      
+        height: $header-height + 3rem;    
     }
 
     .content {
-        text-align: center;
-        display: grid;
-        grid-gap: 3rem;
-        grid-template-columns: 50% 50%;
         grid-template-areas:
             "disks   tour"
             "logo   logo";
-
-        font-weight: 700;
     
-
-        .tour, .disks {
-            grid-area: tour;
-         
-            text-align: right;
-            color: white;
-            mix-blend-mode: difference;
-         
-
-            h2 {   
-                text-align: center;
-                margin-bottom: 1rem;
-                font-size: 2.6rem;
-                font-weight: 800;
-            }
-
-    
-
-            table {
-                
-                border-collapse: separate;
-                border-spacing: .6rem;
-            }
-
-            td {
-                text-align: left;
-               
-            }
-
-            
+        .tour {
+            grid-area: tour;           
         }
-
     
-
         .logo {
             grid-area: logo;
-            
         }
 
         .disks {
             grid-area: disks;
-            
-            
         }
-
-
     }
     
 }
@@ -89,8 +47,5 @@
                     width: 90%;
                 }
         }
-
-        
     }
-    
 }

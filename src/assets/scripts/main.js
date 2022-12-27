@@ -4,7 +4,6 @@
  */
 
 
-import * as bootstrap from 'bootstrap';
 import Countdown  from 'ds-countdown';
 
 

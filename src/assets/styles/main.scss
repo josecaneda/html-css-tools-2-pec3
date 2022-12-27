@@ -1,4 +1,4 @@
-// @tailwind base;
+@tailwind base;
 @tailwind components;
 @import 'variables';
 
@@ -13,18 +13,16 @@
 @import 'module/home';
 @import 'module/poster';
 @import 'module/header';
-@import 'module/band-members';
 @import 'module/poster-history';
 @import 'module/blockquote';
 @import 'module/history-text';
 @import 'module/footer';
-@import 'module/carousel';
+
 
 
 @import 'theme/default';
 
-// Import all of Bootstrap's CSS
-@import "~bootstrap/scss/bootstrap";
+
 
 
 @tailwind utilities;
